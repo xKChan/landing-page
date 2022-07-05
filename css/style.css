@@ -107,13 +107,14 @@ h1 {
     font-weight: 900;
     color: #1f2937;
     padding: 42px;
+    padding-top: 50px;
 }
 
 .pics {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .populardeals {
@@ -124,7 +125,7 @@ h1 {
 }
 
 .secondsec {
-    padding-bottom: 70px;
+    padding-bottom: 150px;
 }
 
 .dealtext {
@@ -137,3 +138,30 @@ h1 {
     border: 3px solid #3882f6;
 }
 /* Section three */
+
+.thirdsec {
+    padding: 150px;
+    background-color: #e5e7eb;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    width: 37%;
+    align-self: flex-end;
+    font-size: 26px;
+
+}
+
+/* Section four */
+
