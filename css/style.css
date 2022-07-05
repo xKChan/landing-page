@@ -1,14 +1,23 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882f9;
+    padding: 5px 20px;
+    border-radius: 7px;
 }
 
 /* Header */
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 30px;
 }
 
@@ -51,3 +60,40 @@ h1 {
 }
 
 /* First Section */
+
+.firstsec {
+    background-color: #1f2937;
+    display: flex;
+    padding: 32px;
+    padding-bottom: 50px;
+    gap: 200px;
+    height: 300px;
+    justify-content: center;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.herosub {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.herologo {
+    max-height: 300px;
+    max-width: 400px;
+    align-self: center;    padding: 0 20px;
+    /* flex: 1; */
+
+}
+
+.container {
+    align-self: center;
+    width: 400px;
+    flex-wrap: wrap;
+    /* flex: 1; */
+}
