@@ -165,3 +165,40 @@ h1 {
 
 /* Section four */
 
+.fourthsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.popup {
+    min-height: 120px;
+    min-width: 800px;
+    background-color: ;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f9;
+}
+
+.poptitle {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.poptext {
+    color: white;
+}
+
+.popbutton {
+    background-color: #3882f9;
+    padding: 8px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* Footer */
