@@ -66,7 +66,7 @@ h1 {
     display: flex;
     padding: 32px;
     padding-bottom: 50px;
-    gap: 200px;
+    gap: 220px;
     height: 300px;
     justify-content: center;
 }
@@ -85,7 +85,7 @@ h1 {
 
 .herologo {
     max-height: 300px;
-    max-width: 400px;
+    max-width: 500px;
     align-self: center;    padding: 0 20px;
     /* flex: 1; */
 
@@ -202,3 +202,13 @@ h1 {
 }
 
 /* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+}
