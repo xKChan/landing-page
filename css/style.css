@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    height: 100vh;
+    min-height: 100vh;
     padding: 0;
     margin: 0;
 }
@@ -97,3 +97,43 @@ h1 {
     flex-wrap: wrap;
     /* flex: 1; */
 }
+
+/* Second Section */
+
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 42px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.populardeals {
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.secondsec {
+    padding-bottom: 70px;
+}
+
+.dealtext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+}
+
+.populardeals img {
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+/* Section three */
