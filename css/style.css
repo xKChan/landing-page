@@ -175,7 +175,6 @@ h1 {
 .popup {
     min-height: 120px;
     min-width: 800px;
-    background-color: ;
     border-radius: 6px;
     display: flex;
     justify-content: space-around;
